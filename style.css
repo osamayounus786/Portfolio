@@ -1,0 +1,136 @@
+body{
+    font-family: sans-serif;
+}
+.nav-brand{
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ffffff;
+}
+.nav-brand:hover{
+    color: #23c483;
+}
+
+
+.nav-bar > ul > li{
+    list-style: none;
+    display: inline;
+  
+}
+.nav-bar > ul > li>a{
+    text-decoration: none;
+}
+.nav-bar > ul > li>a {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    outline: none;
+  }
+  
+  .nav-bar > ul > li> a:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px #2ee59d66;
+    color: #fff;
+    
+  }
+  
+  .nav-bar > ul > li> a:active {
+    transform: translateY(-1px);
+  }
+  .nav-bar{
+     
+      display: flex;
+      justify-content: flex-end;
+  }
+
+   .nav-brand-parent{
+      position: relative;
+      top: 15px;
+      left: 10px;
+  }
+  .header{
+      height: 80vh;
+      background-color: #0f0e0e;
+  }
+  /* intro part start */
+  .intro{
+      width: 600px;
+      height: 200px;
+      /* border: 3px solid white; */
+      color: white;
+     
+    
+  }
+  .intro-parent{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid white; */
+    margin:0 auto;
+    margin-top: 120px;
+  }
+  .intro-text{
+      opacity: 0.7;
+  }
+  .contact-button {
+    font-family: inherit;
+    background: #23c483;
+    color: white;
+    padding: 0.35em 0;
+    font-size: 17px;
+    border: none;
+    border-radius: 0.7em;
+    letter-spacing: 0.08em;
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 2.1em;
+    padding-left: 2.8em;
+    padding-right: 0.9em;
+   }
+   
+   .contact-button .icon {
+    background: #fff;
+    height: 2em;
+    width: 2em;
+    border-radius: 2em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0.4em;
+    transition: all 0.5s;
+   }
+   
+   .icon svg {
+    margin-left: 0.4em;
+    transition: all 0.5s;
+    color: #23c483;
+    width: 1.2rem;
+    height: 1.2rem;
+   }
+   
+   .contact-button:hover .icon svg {
+    transform: rotate(360deg);
+   }
+   
+   .contact-button:hover .icon {
+    width: calc(100% - 0.85rem);
+    border-radius: 0.5em;
+   }
+
+   /* intro part end  */
+
+
